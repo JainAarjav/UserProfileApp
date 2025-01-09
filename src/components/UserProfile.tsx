@@ -41,7 +41,7 @@ const UserProfile= () => {
                   <strong>Phone:</strong> {user.phone}
                 </p>
                 <Link
-                  to={`/users/${user.id}`}
+                  to={`/UserProfileApp/users/${user.id}`}
                   className="btn btn-outline-primary btn-sm"
                 >
                   View Activities
