@@ -13,8 +13,8 @@ const App= () => {
       </header>
       <main>
         <Routes>
-          <Route path="/" element={<UserProfile />} />
-          <Route path="/users/:id" element={<UserActivities />} />
+          <Route path="/UserProfileApp" element={<UserProfile />} />
+          <Route path="/UserProfileApp/users/:id" element={<UserActivities />} />
         </Routes>
       </main>
     </Router>
